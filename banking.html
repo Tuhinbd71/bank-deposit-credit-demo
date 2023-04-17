@@ -13,20 +13,46 @@
     <header>
         <h1 class="text-4xl font-bold text-center mt-8">Let's get some money</h1>
     </header>
-    <main>
+    <main class=" w-3/4 mx-auto">
+        <!-- Balance and Transaction -->
         <section class="mt-8">
-            <div class="grid grid-cols-3">
-                <div class="bg-blue-500 py-3 w-3/4 mx-auto rounded">
+            <div class="grid grid-cols-3 gap-8">
+                <div class="bg-blue-500 py-3 rounded">
                     <h2 class="text-4xl text-center mb-2 text-white">Deposit</h2>
                     <h4 class="text-4xl text-center">$0</h4>
                 </div>
-                <div class="bg-fuchsia-600 py-3 w-3/4 mx-auto rounded">
+                <div class="bg-fuchsia-500 py-3 rounded">
                     <h2 class="text-4xl text-center mb-2 text-white">Withdraw</h2>
                     <h4 class="text-4xl text-center">$0</h4>
                 </div>
-                <div class="bg-green-700 py-3 w-3/4 mx-auto rounded">
+                <div class="bg-green-500 py-3 rounded">
                     <h2 class="text-4xl text-center mb-2 text-white">Balance</h2>
                     <h4 class="text-4xl text-center">$1580</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit and Withdraw -->
+        <section>
+            <div class="grid grid-cols-2 mt-8">
+                <div>
+                    <h1>Please Deposit</h1>
+                    <div>
+                        <input id="user-email" class="border-2 rounded border-gray-400 w-3/4 mb-2 p-1" type="text"
+                            placeholder="Enter your email">
+                        <br>
+                        <button id="submit-btn"
+                            class="bg-blue-700 text-white border-2 rounded border-gray-400 px-6 py-1 mt-2 font-bold">Submit</button>
+                    </div>
+                </div>
+                <div>
+                    <h1>Withdraw</h1>
+                    <div>
+                        <input id="user-email" class="border-2 rounded border-gray-400 w-3/4 mb-2 p-1" type="text"
+                            placeholder="Enter your email">
+                        <br>
+                        <button id="submit-btn"
+                            class="bg-blue-700 text-white border-2 rounded border-gray-400 px-6 py-1 mt-2 font-bold">Submit</button>
+                    </div>
                 </div>
             </div>
         </section>
