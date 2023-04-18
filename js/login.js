@@ -6,7 +6,7 @@ document.getElementById("submit-btn").addEventListener("click", function () {
     // get user password
     const userPassword = document.getElementById("user-password");
     const userPasswordValue = userPassword.value;
-    if (userEmail == "m.tuhin02bd@gmail.com" && userPasswordValue == "THN@00dotcom") {
+    if (userEmail == "m.tuhinbd@gmail.com" && userPasswordValue == "THN@00dotcom") {
         window.location.href = "banking.html"
     }
     else {
@@ -14,4 +14,4 @@ document.getElementById("submit-btn").addEventListener("click", function () {
     }
 })
 
-// User deposit & withdraw section
+
