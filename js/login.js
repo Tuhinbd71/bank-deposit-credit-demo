@@ -1,4 +1,4 @@
-// user login Form 
+// user login Form section
 document.getElementById("submit-btn").addEventListener("click", function () {
     // get user email
     const inputField = document.getElementById("user-email");
@@ -13,3 +13,5 @@ document.getElementById("submit-btn").addEventListener("click", function () {
         console.log("Please! input valid value")
     }
 })
+
+// User deposit & withdraw section
